@@ -1,0 +1,25 @@
+.banner {
+  background: url(../images/home-header.png) center top no-repeat;
+  background-size:cover;
+
+  .content{
+    padding: 296px 0;
+    text-align: right;
+    color: $color1;
+  }
+
+  .cta{
+    background-color: $color1;
+    width: $num*13;
+    margin-left: auto;
+    padding: 6px;
+    a{
+      text-align: center;
+      color: $color2;
+      font-weight: $font-weightm;
+      // &:hover{
+
+      // }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.faq{
+    width: 65%;
+
+    h2{
+        font-weight: $font-weightl;
+        border-left: $num solid $color1;
+        padding-left: $num*2;
+        margin-bottom: $num*4;
+    }
+
+    h4, h5{
+        font-weight: $font-weightl;
+    }
+
+    li{
+        margin: $num*3 0 $num*4 0 ;
+    }
+}

@@ -1,0 +1,22 @@
+@import 'variable.scss';
+@import 'reset';
+@import 'base';
+
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+@import './pages/index.scss';
+@import './pages/faq.scss';
+
+.container {
+    max-width: 1320px;
+    padding: $padding-spaces;
+    margin: 0 auto;
+}
+
+@media (max-width:992px) { //pad
+}
+
+@media (max-width: 768px){ //mo
+
+}
